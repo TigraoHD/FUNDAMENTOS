@@ -1,0 +1,18 @@
+#include<iostream>
+
+//autor Luis Medina
+using namespace std;
+
+int main(){
+	
+	float a, b, total;
+	
+	cout<<"ingrese a: ";
+	cin>>a;
+	cout<<"ingrese b: ";
+	cin>>b;
+	total = a + b;
+	cout<<"el resultado es: "<<total;
+	
+	return 0;
+}
