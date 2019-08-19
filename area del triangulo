@@ -1,0 +1,19 @@
+#include<iostream>
+#include<math.h>
+
+//autor Luis Medina
+using namespace std;
+
+int main(){
+	
+	float a, b, total;
+	
+	cout<<"Ingrese altura: ";
+	cin>>a;
+	cout<<"ingrese base: ";
+	cin>>b;
+	total = (a*b)/2;
+	cout<<"el area es: "<<total;
+	
+	return 0;
+}
