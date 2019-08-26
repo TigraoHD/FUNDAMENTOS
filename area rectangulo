@@ -1,0 +1,34 @@
+/ areadelrecutangulo.cpp : Defines the entry point for the console application.
+
+//
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+
+
+int main()
+
+{
+
+	float a, b, area;
+
+	cout<<"ingrese altura: ";
+
+	cin>>a;
+
+	cout<<"ingrese base; ";
+
+	cin>>b;
+
+    area = (a*b);
+
+	cout<<"el area es: "<<area;
+
+	return 0;
+
+}
