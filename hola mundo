@@ -1,0 +1,20 @@
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int entero = 15;
+    float flotante = 14.54;
+    double dobles = 14.5567;
+    char letra = 'h';
+
+
+    cout<<dobles;
+    
+    cout<<" Hola mundo";
+
+
+
+   return 0;
+}
