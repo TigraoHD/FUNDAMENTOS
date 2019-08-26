@@ -1,0 +1,25 @@
+/* La sentencia if
+  if(condicion){
+    instruccion 1;
+  }
+  else{
+    instruccion 2;
+  }
+*/
+
+ #include<iostream>
+ 
+ using namespace std;
+ void main(){
+      int ingresar, contrasena = 12344;
+      
+      cout<<"Escriba la contraseña: ";
+      cin>>ingresar;
+      
+      if(ingresar == contrasena){
+          cout<<"contraseña correcta ";
+      }
+	  else{
+	  	cout<<"contraseña incorrecta";
+	  }
+ }
