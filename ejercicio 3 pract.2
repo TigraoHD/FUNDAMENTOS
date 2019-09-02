@@ -1,0 +1,35 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main ()
+{
+	float p1,p2,p3,f1,p,promedio_parciales,nota_final=0;
+	cout<<"ingrese nota del primer parcial: ";
+	cin>>p1;
+	cout<<"ingrese nota del segundo parcial: ";
+	cin>>p2;
+	cout<<"ingrese nota del tercer parcial: ";
+	cin>>p3;
+	
+	promedio_parciales=(p1+p2+p3)*0.4/3;
+	cout<<"-------------------------------------"<<endl;
+	cout<<"\nel promedio de los parciales es: "<<promedio_parciales<<endl;
+	cout<<"\n-------------------------------------"<<endl;
+	cout<<"ingrese su nota de su examen final: ";
+	cin>>f1;
+	f1*=0.4;
+	cout<<"\n-------------------------------------"<<endl;
+	cout<<"\nEl promedio de su final es: "<<f1<<endl;
+	cout<<"\n-------------------------------------"<<endl;
+	cout<<"ingrese su nota practica: ";
+	cin>>p;
+	p*=0.2;
+	cout<<"\n-------------------------------------"<<endl;
+	cout<<"\nSu promedio de su nota practica es: "<<p<<endl;
+	cout<<"\n-------------------------------------"<<endl;
+	nota_final= promedio_parciales + f1 + p;
+	cout<<"\n-------------------------------------"<<endl;
+	cout<<"\nsu nota final es: "<<nota_final<<endl;
+	cout<<"\n-------------------------------------"<<endl;
+	getch();
+}
