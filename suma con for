@@ -1,0 +1,28 @@
+#include<iostream>
+#include<conio.h>
+
+
+using namespace std;
+
+
+int main(){
+	
+	int i, suma =0, n;
+	float num;
+	
+	cout<<"ingrese un valor en n: ";
+	cin>>n;
+	
+	for (i=1;i<=n;i++)
+	{
+		cout<<"introduzca el valor mum: ";
+		cin>>num;
+		suma=suma+num;
+		
+	}
+	cout<<"\nLa suma es: "<<suma<<endl;
+
+
+	
+	getch();
+}
