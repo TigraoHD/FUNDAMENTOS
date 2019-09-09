@@ -1,0 +1,30 @@
+#include <iostream>
+#include<conio.h>
+
+
+using namespace std;
+
+
+int main(){
+	
+	int i=1, num, n, suma=0;
+	
+	cout<<"digite un numero: ";
+	cin>>n;
+	while(i<=n)
+	{
+		cout<<"Ingrese un numero: ";
+		cin>>num;
+		suma= suma+num;
+		i++;
+		
+		
+		
+	}
+	 cout<<"la suma es: "<<suma<<endl;
+	
+	
+	
+	getch();
+	
+}
