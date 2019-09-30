@@ -1,0 +1,34 @@
+// ejercicio vectores.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{
+	int numero[10];
+	int suma = 0;
+	int n, menor= 99999;
+	
+	cout<<"Ingrese el numero de elementos del vector: "<<endl;
+	cin>>n;
+
+	for (int i=0; i<n; i++){
+		cout<<"ingese el elemento: ["<<i<<"]: "<<endl;
+		cin>>numero[10];
+		suma += numero[i];
+	}
+	if (numero[10]< menor){
+       menor= numero[10];
+	
+	cout<<"El numero menor es: "<<menor<<endl;
+
+	getch();
+	
+	
+	
+	
+	
+}
