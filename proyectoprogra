@@ -1,6 +1,7 @@
+#include "stdafx.h"
+#include "conio.h"
 #include <iostream>
-#include <stdlib.h>
-#include <conio.h>
+#include "stdlib.h"
 #include <string>
 #include <vector>
 #include <fstream>
@@ -25,7 +26,8 @@ string carrera;
 int telefono;
 string vec[MAX];
 int t, op1, op2;
-int main ()
+
+void main()
 
 {
     string usuario;
@@ -148,7 +150,6 @@ int main ()
 				
 			        }while (adm!=0);
 			case 3:
-			  return 0;
 			  break;
 			default: cout<<"Numero fuera de rango"<<endl;break;
 	    }
@@ -226,6 +227,7 @@ void nuevoreg(string vec[], int j)
          }
         }while (op1 !=2);
 }
+
 
 
 
